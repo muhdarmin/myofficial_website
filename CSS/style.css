@@ -1,0 +1,419 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+.hero{
+	
+	width: 100%;
+	height: 100vh;
+	}
+
+nav{
+
+	display: flex;
+	justify-content: fixed;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: sticky;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+}
+nav ul li{
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	transition: all .5s ease;
+}
+nav ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px white;
+}
+
+
+.detel{
+	margin-left: 8%;
+	margin-top: 13%;
+
+}
+.detel h1{
+	font-size: 50px;
+	color: black;
+	margin-bottom: 20px;
+
+}
+span{
+	color: red;
+}
+.detel p{
+	color: black;
+	line-height: 22px;
+	font-weight: bold;
+
+}
+.detel a{
+	background: transparent;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	margin: 30px 0;
+	border: 1px solid white;
+	transition: .6s ease;
+	border-radius: 5px;
+}
+.detel a:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+	font-weight: bold;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.about-text .button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 10px solid transparent;
+	font-weight: bold;
+	padding: 13px 30 px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.about-text .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+
+}
+
+.about-text .button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 10px solid transparent;
+	font-weight: bold;
+	padding: 13px 30 px;
+	border-radius: 30px;
+	transition: .4s;
+}
+.about-text .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+
+}
+
+.experience{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0 px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 1040px;
+	width: 400px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card img{
+	height: 300px;
+	width: auto;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 10px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s;
+}
+. card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+.Education{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0 px;
+}
+.koloh h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.koloh span{
+	color: yellow;
+}
+.cute{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	align-items: center;
+	gap: 2.5rem;
+	margin-top: 5rem;
+}
+.cute h6{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.cute p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.table{
+	background: var(--bg-color);
+	padding: 35px 45px;
+	border-radius: 8px;
+	transition: all .45s ease;
+}
+
+.cute .button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 10px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s;
+
+}
+.cute button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+.ok{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0 px;
+}
+.ok h1{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+
+.gambar{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0 px;
+}
+.gambar h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.GG a{
+	background: transparent;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	margin: 30px 0;
+	border: 1px solid white;
+	transition: .6s ease;
+	border-radius: 5px;
+	
+}
+.GG a:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+	font-weight: bold;
+}
+
+
+
+.gambar a{
+	background: transparent;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+	margin: 30px 0;
+	border: 1px solid white;
+	transition: .6s ease;
+	border-radius: 5px;
+
+}
+.gambar a:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+	font-weight: bold;
+}
+
+
+
+
+.contact{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0 px;
+}
+
+
+.cool h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.ayang{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.contact p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.contact p:nth-child(1) span{
+	color: orange;
+}
+.contact p:nth-child(2){
+	font-size: 17px;
+	color: white;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social img{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social img:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color: #f9004d;
+	bottom: 35px;
+	font-size: 14px;
+}
